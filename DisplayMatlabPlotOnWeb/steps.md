@@ -2,8 +2,9 @@
 https://www.mathworks.com/help/compiler_sdk/java/web-application-example.html   
 
 # Install Apache for ubuntu
+web server 
 https://help.ubuntu.com/lts/serverguide/httpd.html
-web server   
+  
 
 # "Compiling Your Java Code" step
 Ensure your classpath is set to include:  
