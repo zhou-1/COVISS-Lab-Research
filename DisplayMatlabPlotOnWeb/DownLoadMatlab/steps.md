@@ -13,3 +13,7 @@ Students - Enter the following in the Activation key field: 15945-44336-32416-02
 # To download MATLAB products from The MathWorks website :
 1. Go to the following URL: http://www.mathworks.com/web_downloads/
 2. Click on the "Download" link on the Licensed Products tab.
+
+# Download Linux version
+During downloading process for linux version, in terminal, use sudo ./install; 
+without sudo you will not be able to create the required folder.
