@@ -2,7 +2,7 @@
 https://www.mathworks.com/help/compiler_sdk/java/web-application-example.html   
 
 # Install Apache for ubuntu
-web server 
+web server   
 https://help.ubuntu.com/lts/serverguide/httpd.html
   
 
