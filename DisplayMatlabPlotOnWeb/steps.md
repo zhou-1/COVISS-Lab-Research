@@ -7,23 +7,39 @@ https://help.ubuntu.com/lts/serverguide/httpd.html
   
 
 # "Compiling Your Java Code" step
-Ensure your classpath is set to include:  
-<b> javabuilder.jar — included with MATLAB Compiler SDK </b>     
-To use the compiled classes, you need to include a file called javabuilder.jar on the Java class path. You can find this file in one of the following folders: MATLAB installed on your system	matlabroot/toolbox/javabuilder/jar; MATLAB Runtime installed on your system	mcrroot/toolbox/javabuilder/jar  
-Location:
-/usr/share  
-/var/www
+<b> installed JAVA SDK using: <b/>
+sudo apt-get install default-jdk
 
-<b> vararg_java.jar — the JAR file you just built </b>    
-the JAR file you just built in "built java package" step, Project Nameis vararg_java.  
-Location:  
-/home/medeiros/varargexample/for_redistribution_files_only  
-/home/medeiros/varargexample/for_testing  
+- In terminal call "hostname -I" to get hostname of this machine and check if apache is running
+134.48.90.48  
+* some basic apache instructions https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-16-04   
 
-<b> servlet-api.jar — included as part of the servlet container </b>  
-included as part of the servlet container    
-location:  
-/usr/local/MATLAB/R2016a/java/jarext/j2ee  
-/usr/local/MATLAB/R2016a/sys/tomcat/lib  
-/usr/local/MATLAB/R2017a/java/jarext/j2ee  
-/usr/local/MATLAB/R2017a/sys/tomcat/lib  
+# To run .war applications  
+we do not need the Apache Tomcat, which I downloaded from here http://tomcat.apache.org/download-80.cgi#8.5.28   
+
+- Instructions for configuring tomcat https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04   
+
+# to set JAVA_HOME path in Ubuntu 
+1) open /etc/environment in any text editor like nano or gedit and add the following line:
+JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"  
+
+2) use source to load the variables, by running this command:
+
+source /etc/environment  
+
+3) check the variable, by running this command:
+
+echo $JAVA_HOME  
+
+- Check that TOMCAT is running fine: http://134.48.90.48:8080/  
+
+- added a user for you in tomcat-user.xml:   <user username="zhou" password="12345" roles="manager-gui,admin-gui"/>  
+
+- configure .war in tomcat server:  
+1) http://localhost:8080/ and click in Manager App, type your user: zhou / 12345  
+
+https://stackoverflow.com/questions/15113628/java-lang-classnotfoundexception-javax-servlet-jsp-jstl-core-config  
+
+## Setting CLASSPATH => same as JAVAHOME  
+1) open /etc/environment and add a line as for example CLASSPATH="/opt/tomcat/lib/servlet-api.jar"  
+2) run in terminal: source /etc/environment  
