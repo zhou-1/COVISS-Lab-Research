@@ -7,7 +7,7 @@ https://help.ubuntu.com/lts/serverguide/httpd.html
   
 
 # "Compiling Your Java Code" step
-<b> installed JAVA SDK using: <b/>
+<b> installed JAVA SDK using: </b>
 sudo apt-get install default-jdk
 
 - In terminal call "hostname -I" to get hostname of this machine and check if apache is running
