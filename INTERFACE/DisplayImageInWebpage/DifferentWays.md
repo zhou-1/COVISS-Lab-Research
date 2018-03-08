@@ -5,6 +5,8 @@ HTML5 has a much simpler DOCTYPE than HTML4/XHTML, that is only <!DOCTYPE html>.
 1. HTML, JavaScript  
 humble <img> element  
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML   
+JavaScript Examples  
+https://www.w3schools.com/js/js_examples.asp  
 display image with JavaScript    
 https://stackoverflow.com/questions/5451445/how-to-display-image-with-javascript  
 openCV.js      
