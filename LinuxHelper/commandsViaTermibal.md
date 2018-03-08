@@ -39,7 +39,7 @@ cp: The cp command will make a copy of a file for you. Example: "cp file foo" wi
 
 mv: The mv command will move a file to a different location or will rename a file.   
 Examples are as follows: "mv file foo" will rename the file "file" to "foo". "mv foo -/Desktop" will move the file "foo" to your Desktop directory, but it will not rename it. You must specify a new file name to rename a file.  
-To save on typing, you can substitute '~' in place of the home directory.  
+To save on typing, you can substitute '-' in place of the home directory.  
 
 Note that if you are using mv with sudo you can use the ~ shortcut, because the terminal expands the ~ to your home directory. However, when you open a root shell with sudo -i or sudo -s, ~ will refer to the root account's home directory, not your own.   
 
