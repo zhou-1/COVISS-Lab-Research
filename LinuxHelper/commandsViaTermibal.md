@@ -1,7 +1,6 @@
 # copy files  
 1) By using -i for interactive you will be asked if you would like to replace the file:  
 cp -i /home/levan/kdenlive/untitelds.mpg /media/sda3/SkyDrive/  
- 
 or you can use -b to create a backup of your file:  
 cp -b /home/levan/kdenlive/untitelds.mpg /media/sda3/SkyDrive  
 
@@ -14,7 +13,6 @@ cp -Ri ~/MyFolder /sda3/
 # Move files like cutting  
 This last one can be done via the mv command, move is like cutting:  
 mv -i ~/MyFile ~/OtherFolder/MyFile  
-
 if you want to move a directory, use:  
 mv -Ri ~/MyDirectory ~/OtherDirectory/  
 
