@@ -5,4 +5,3 @@ online free hand drawing
 https://gojs.net/latest/extensions/FreehandDrawing.html  
 https://github.com/NorthwoodsSoftware/GoJS/blob/master/extensions/FreehandDrawing.html  
 
-2. 
