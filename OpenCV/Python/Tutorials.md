@@ -39,26 +39,26 @@ https://www.faqforge.com/linux/how-to-install-ffmpeg-on-ubuntu-14-04/
 sudo apt install  gstreamer0.10-plugins-good  
 https://docs.opencv.org/trunk/d2/de6/tutorial_py_setup_in_ubuntu.html  
 Downloading OpenCV (Now open a terminal window and navigate to the downloaded "opencv" folder. )  
-Configuring and Installing  
-Python 2:
---     Interpreter:                 /usr/bin/python2.7 (ver 2.7.12)
---     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython2.7.so (ver 2.7.12)
---     numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.11.0)
---     packages path:               lib/python2.7/dist-packages
--- 
---   Python 3:
---     Interpreter:                 /usr/bin/python3 (ver 3.5.2)
---     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython3.5m.so (ver 3.5.2)
---     numpy:                       /home/zhou/.local/lib/python3.5/site-packages/numpy/core/include (ver 1.14.2)
---     packages path:               lib/python3.5/dist-packages
--- 
---   Python (for build):            /usr/bin/python2.7
-Now you build the files using "make" command and install it using "make install" command.
-$ make
-#sudo make install
-Installation is over. All files are installed in "/usr/local/" folder. Open a terminal and try import "cv2".
-import cv2 as cv
-print(cv.__version__)
+Configuring and Installing   
+Python 2:  
+--     Interpreter:                 /usr/bin/python2.7 (ver 2.7.12)  
+--     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython2.7.so (ver 2.7.12)  
+--     numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.11.0)  
+--     packages path:               lib/python2.7/dist-packages  
+--   
+--   Python 3:  
+--     Interpreter:                 /usr/bin/python3 (ver 3.5.2)  
+--     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython3.5m.so (ver 3.5.2)  
+--     numpy:                       /home/zhou/.local/lib/python3.5/site-packages/numpy/core/include (ver 1.14.2)  
+--     packages path:               lib/python3.5/dist-packages  
+--   
+--   Python (for build):            /usr/bin/python2.7  
+Now you build the files using "make" command and install it using "make install" command.  
+$ make  
+#sudo make install  
+Installation is over. All files are installed in "/usr/local/" folder. Open a terminal and try import "cv2".  
+import cv2 as cv  
+print(cv.__version__)  
 
 
 
