@@ -55,7 +55,7 @@ Python 2:
 --   Python (for build):            /usr/bin/python2.7
 Now you build the files using "make" command and install it using "make install" command.
 $ make
-# sudo make install
+#sudo make install
 Installation is over. All files are installed in "/usr/local/" folder. Open a terminal and try import "cv2".
 import cv2 as cv
 print(cv.__version__)
