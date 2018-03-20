@@ -13,7 +13,6 @@ Congratulations! At this point you have a Python 3 programming environment set u
 2. Install IDLE Python IDE on Ubuntu Desktop 16.04  
 Install idle for Python 3  
 http://www.configserverfirewall.com/ubuntu-linux/install-python-idle-ubuntu-16/  
-
 For Python shell
 error: SyntaxError: multiple statements found while compiling a single statement [duplicate]  
 reason: In the shell, you can't execute more than one statement at a time  
