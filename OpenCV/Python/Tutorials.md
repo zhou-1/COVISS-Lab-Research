@@ -28,6 +28,8 @@ How to set the default library path for python
 https://stackoverflow.com/questions/42548750/how-to-set-the-default-library-path-for-python   
 import OpenCV in pycharm  
 need to click "inherit global site-packages" while creating project  
+How to Install OpenCV – OpenCV 3.2 on Ubuntu 17.04 with PyCharm  
+https://shahsparx.me/install-opencv-ubuntu-python-pycharm/  
 
 
 4. Install OpenCV-Python in Ubuntu  
