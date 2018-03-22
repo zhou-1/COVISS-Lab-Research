@@ -5,6 +5,9 @@ http://coviss.org/
 # Projects
 Real-time Fruit Flower Detection using a Cloud-based Architecture
 
+# OpenCV with python
+Basic steps for what we did for image process
+
 # interface  
 - Display an image in a web page  
 - Freehand drawing over this image  
