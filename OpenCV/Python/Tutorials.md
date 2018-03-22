@@ -26,6 +26,8 @@ Starting PyCharm on Linux
 Run pycharm.sh from the bin subdirectory by using code ./pycharm.sh.  
 How to set the default library path for python  
 https://stackoverflow.com/questions/42548750/how-to-set-the-default-library-path-for-python   
+import OpenCV in pycharm  
+need to click "inherit global site-packages" while creating project  
 
 
 4. Install OpenCV-Python in Ubuntu  
