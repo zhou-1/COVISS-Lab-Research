@@ -23,7 +23,7 @@ https://stackoverflow.com/questions/21226808/syntaxerror-multiple-statements-fou
 https://www.jetbrains.com/help/pycharm/requirements-installation-and-launching.html#linux   
 Starting PyCharm on Linux  
 /opt/pycharm-community-2017.3.4/bin  
-Run pycharm.sh from the bin subdirectory.  
+Run pycharm.sh from the bin subdirectory by using code ./pycharm.sh.  
 
 
 4. Install OpenCV-Python in Ubuntu  
