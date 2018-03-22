@@ -2,7 +2,10 @@
 functions: cv.imread(), cv.imshow() , cv.imwrite()  
 
 # read an image  
-Use the function cv.imread() to read an image.    
+Use the function 
+
+        cv.imread()     
+to read an image.    
 a flag which specifies the way image should be read.  
 
     cv.IMREAD_COLOR : Loads a color image. Any transparency of image will be neglected. It is the default flag.
@@ -13,4 +16,6 @@ Note:
 Instead of these three flags, you can simply pass integers 1, 0 or -1 respectively.  
 <b> 1 for color, 0 for grayscale, -1 for unchanged  </b> 
     
-1
+# display an image  
+Use the function cv.imshow() to display an image in a window.  
+
