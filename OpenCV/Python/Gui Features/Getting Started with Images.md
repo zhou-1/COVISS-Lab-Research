@@ -9,4 +9,8 @@ a flag which specifies the way image should be read.
     cv.IMREAD_GRAYSCALE : Loads image in grayscale mode
     cv.IMREAD_UNCHANGED : Loads image as such including alpha channel
 
-1
+Note:
+    Instead of these three flags, you can simply pass integers 1, 0 or -1 respectively.  
+    1 for color, 0 for grayscale, -1 for unchanged  
+    
+
