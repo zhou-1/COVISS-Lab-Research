@@ -24,6 +24,8 @@ https://www.jetbrains.com/help/pycharm/requirements-installation-and-launching.h
 Starting PyCharm on Linux  
 /opt/pycharm-community-2017.3.4/bin  
 Run pycharm.sh from the bin subdirectory by using code ./pycharm.sh.  
+How to set the default library path for python  
+https://stackoverflow.com/questions/42548750/how-to-set-the-default-library-path-for-python   
 
 
 4. Install OpenCV-Python in Ubuntu  
