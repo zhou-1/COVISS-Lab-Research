@@ -64,7 +64,7 @@ $ make
 #sudo make install  
 Installation is over. All files are installed in "/usr/local/" folder. Open a terminal and try import "cv2".  
 
-    import cv2 as cv  
-    print(cv.__version__)  
+        import cv2 as cv  
+        print(cv.__version__)  
 
-1
+
