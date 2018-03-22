@@ -26,6 +26,9 @@ First argument is a window name which is a string. second argument is our image.
 cv.waitKey() is a keyboard binding function. Its argument is the time in milliseconds. The function waits for specified milliseconds for any keyboard event. If you press any key in that time, the program continues. If 0 is passed, it waits indefinitely for a key stroke.   
 cv.destroyAllWindows() simply destroys all the windows we created. If you want to destroy any specific window, use the function cv.destroyWindow() where you pass the exact window name as the argument.      
 
+    cv.namedWindow('image', cv.WINDOW_NORMAL)
+There is a special case where you can already create a window and load image to it later. In that case, you can specify whether window is resizable or not. It is done with the function cv.namedWindow(). By default, the flag is cv.WINDOW_AUTOSIZE. But if you specify flag to be cv.WINDOW_NORMAL, you can resize window. It will be helpful when image is too large in dimension and adding track bar to windows.    
+
 
 
 
