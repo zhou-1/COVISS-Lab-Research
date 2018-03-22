@@ -4,7 +4,7 @@ functions: cv.imread(), cv.imshow() , cv.imwrite()
 # read an image  
 Use the function 
 
-        cv.imread()     
+    cv.imread()     
 to read an image.    
 a flag which specifies the way image should be read.  
 
