@@ -6,6 +6,7 @@ https://docs.opencv.org/trunk/dc/da5/tutorial_py_drawing_functions.html
 
 # Code
 In all the above functions, you will see some common arguments as given below:  
+
 img : The image where you want to draw the shapes  
 color : Color of the shape. for BGR, pass it as a tuple, eg: (255,0,0) for blue. For grayscale, just pass the scalar value.  
 thickness : Thickness of the line or circle etc. If **-1** is passed for closed figures like circles, it will fill the shape. default thickness = 1  
