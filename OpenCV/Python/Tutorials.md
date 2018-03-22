@@ -67,5 +67,3 @@ Installation is over. All files are installed in "/usr/local/" folder. Open a te
     import cv2 as cv  
     print(cv.__version__)  
 
-
-
