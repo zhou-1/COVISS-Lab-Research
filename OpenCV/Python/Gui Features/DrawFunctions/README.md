@@ -25,5 +25,12 @@ To draw a circle, you need its center coordinates and radius.
 To draw the ellipse, we need to pass several arguments. One argument is the center location (x,y). Next argument is axes lengths (major axis length, minor axis length). angle is the angle of rotation of ellipse in anti-clockwise direction. startAngle and endAngle denotes the starting and ending of ellipse arc measured in clockwise direction from major axis. i.e. giving values 0 and 360 gives the full ellipse.   
 https://docs.opencv.org/trunk/d6/d6e/group__imgproc__draw.html#ga28b2267d35786f5f890ca167236cbc69  
 
-# Polygon
+# Polygon  
+To draw a polygon, first you need coordinates of vertices. Make those points into an array of shape ROWSx1x2 where ROWS are number of vertices and it should be of type int32.  
+Here we draw a small polygon of with four vertices in yellow color.  
 
+    pts = np.array([[10,5],[20,30],[70,20],[50,10]], np.int32)
+    pts = pts.reshape((-1,1,2))
+    cv.polylines(img,[pts],True,(0,255,255))
+
+# 
