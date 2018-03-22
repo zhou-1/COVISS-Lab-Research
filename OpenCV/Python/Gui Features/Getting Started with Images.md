@@ -13,4 +13,4 @@ Note:
 Instead of these three flags, you can simply pass integers 1, 0 or -1 respectively.  
 <b/> 1 for color, 0 for grayscale, -1 for unchanged  
     
-
+1
