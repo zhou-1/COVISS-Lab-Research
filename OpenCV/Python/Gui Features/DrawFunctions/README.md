@@ -11,3 +11,19 @@ In all the above functions, you will see some common arguments as given below:
 2. Color : Color of the shape. for BGR, pass it as a tuple, eg: (255,0,0) for blue. For grayscale, just pass the scalar value.  
 3. Thickness : Thickness of the line or circle etc. If **-1** is passed for closed figures like circles, it will fill the shape. default thickness = 1  
 4. LineType : Type of line, whether 8-connected, anti-aliased line etc. By default, it is 8-connected. cv.LINE_AA gives anti-aliased line which looks great for curves.  
+
+# Line
+To draw a line, you need to pass starting and ending coordinates of line.  
+
+# Rectangle
+To draw a rectangle, you need top-left corner and bottom-right corner of rectangle.   
+
+# Circle
+To draw a circle, you need its center coordinates and radius.   
+
+# Ellipse
+To draw the ellipse, we need to pass several arguments. One argument is the center location (x,y). Next argument is axes lengths (major axis length, minor axis length). angle is the angle of rotation of ellipse in anti-clockwise direction. startAngle and endAngle denotes the starting and ending of ellipse arc measured in clockwise direction from major axis. i.e. giving values 0 and 360 gives the full ellipse.   
+https://docs.opencv.org/trunk/d6/d6e/group__imgproc__draw.html#ga28b2267d35786f5f890ca167236cbc69  
+
+# Polygon
+
