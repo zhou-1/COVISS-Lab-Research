@@ -33,4 +33,12 @@ Here we draw a small polygon of with four vertices in yellow color.
     pts = pts.reshape((-1,1,2))
     cv.polylines(img,[pts],True,(0,255,255))
 
-# 
+# Adding Text to Images:   
+To put texts in images, you need specify following things.   
+
+Text data that you want to write   
+Position coordinates of where you want put it (i.e. bottom-left corner where data starts).      
+Font type (Check cv.putText() docs for supported fonts)   
+Font Scale (specifies the size of font)   
+regular things like color, thickness, lineType etc. For better look, lineType = cv.LINE_AA is recommended.    
+
