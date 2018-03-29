@@ -20,4 +20,8 @@ Opening is just another name of erosion followed by dilation. It is useful in re
 # Closing     
 Closing is reverse of Opening, Dilation followed by Erosion. It is useful in closing small holes inside the foreground objects, or small black points on the object.     
 
-# 
+# Morphological Gradient 形态梯度    
+It is the difference between dilation and erosion of an image.
+The result will look like the outline of the object.     
+![alt text](https://docs.opencv.org/trunk/gradient.png)        
+
