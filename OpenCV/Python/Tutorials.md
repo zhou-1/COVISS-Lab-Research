@@ -30,6 +30,8 @@ import OpenCV in pycharm
 need to click "inherit global site-packages" while creating project  
 How to Install OpenCV – OpenCV 3.2 on Ubuntu 17.04 with PyCharm  
 https://shahsparx.me/install-opencv-ubuntu-python-pycharm/  
+Open the pycharm in linux   
+sudo ln -s /opt/pycharm-4.0.1/bin/pycharm.sh /usr/bin/pycharm    
 
 
 4. Install OpenCV-Python in Ubuntu  
