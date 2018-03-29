@@ -1,6 +1,8 @@
 # Goal   
 We will learn different morphological operations like Erosion, Dilation, Opening, Closing etc.     
-We will see different functions like : cv.erode(), cv.dilate(), cv.morphologyEx() etc.    
+We will see different functions like : cv.erode(), cv.dilate(), cv.morphologyEx() etc.   
+Detailed Explain:    
+https://docs.opencv.org/2.4/doc/tutorials/imgproc/opening_closing_hats/opening_closing_hats.html   
 
 # Morphological transformations Theory        
 Morphological transformations are some simple operations based on the image shape. It is normally performed on binary images. 
