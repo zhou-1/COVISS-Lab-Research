@@ -19,10 +19,14 @@ It is just opposite of erosion. Here, a pixel element is '1' if atleast one pixe
 ![alt text](https://docs.opencv.org/trunk/dilation.png)
 
 # Opening      
-Opening is just another name of erosion followed by dilation. It is useful in removing noise, as we explained above. Here we use the function, cv.morphologyEx()      
+Opening is just another name of erosion followed by dilation. It is useful in removing noise, as we explained above. Here we use the function, cv.morphologyEx()   
+
+![alt text](https://docs.opencv.org/trunk/opening.png)
 
 # Closing     
 Closing is reverse of Opening, Dilation followed by Erosion. It is useful in closing small holes inside the foreground objects, or small black points on the object.     
+
+![alt text](https://docs.opencv.org/trunk/closing.png)
 
 # Morphological Gradient 形态梯度    
 It is the difference between dilation and erosion of an image.
