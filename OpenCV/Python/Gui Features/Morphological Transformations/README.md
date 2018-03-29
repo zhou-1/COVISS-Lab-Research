@@ -24,6 +24,4 @@ Closing is reverse of Opening, Dilation followed by Erosion. It is useful in clo
 It is the difference between dilation and erosion of an image.
 The result will look like the outline of the object.     
 
-<p align="center">
-  <![alt text](https://docs.opencv.org/trunk/gradient.png)/>        
-</p>
+![alt text](https://docs.opencv.org/trunk/gradient.png)       
