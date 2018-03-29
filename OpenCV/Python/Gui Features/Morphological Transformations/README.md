@@ -26,5 +26,5 @@ The result will look like the outline of the object.
 
 ![alt text](https://docs.opencv.org/trunk/gradient.png)        
 <p align="center">
-  <img />
+  <https://docs.opencv.org/trunk/gradient.png />
 </p>
