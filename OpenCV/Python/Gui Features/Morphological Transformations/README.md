@@ -23,10 +23,14 @@ It is just opposite of erosion. Here, a pixel element is '1' if atleast one pixe
 # Opening      
 Opening is just another name of erosion followed by dilation. It is useful in removing noise, as we explained above. Here we use the function, cv.morphologyEx()   
 
+    dst = open( src, element) = dilate( erode( src, element ) )
+
 ![alt text](https://docs.opencv.org/trunk/opening.png)
 
 # Closing     
 Closing is reverse of Opening, Dilation followed by Erosion. It is useful in closing small holes inside the foreground objects, or small black points on the object.     
+
+    dst = close( src, element ) = erode( dilate( src, element ) )
 
 ![alt text](https://docs.opencv.org/trunk/closing.png)
 
@@ -34,10 +38,15 @@ Closing is reverse of Opening, Dilation followed by Erosion. It is useful in clo
 It is the difference between dilation and erosion of an image.
 The result will look like the outline of the object.     
 
+    dst = morph_{grad}( src, element ) = dilate( src, element ) - erode( src, element )
+
 ![alt text](https://docs.opencv.org/trunk/gradient.png)       
 
 # Top Hat     
 It is the difference between input image and Opening of the image. Below example is done for a 9x9 kernel. 
+
+    dst = tophat( src, element ) = src - open( src, element )
+
 
     kernel = np.ones((9, 9), np.uint8)
     tophat = cv.morphologyEx(img, cv.MORPH_TOPHAT, kernel)
@@ -48,6 +57,8 @@ It is the difference between input image and Opening of the image. Below example
 
 # Black Hat   
 It is the difference between the closing of the input image and input image.     
+    
+    dst = blackhat( src, element ) = close( src, element ) - src
 
 ![alt text](https://docs.opencv.org/trunk/blackhat.png) 
 
