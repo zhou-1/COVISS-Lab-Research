@@ -33,3 +33,19 @@ It is the difference between dilation and erosion of an image.
 The result will look like the outline of the object.     
 
 ![alt text](https://docs.opencv.org/trunk/gradient.png)       
+
+# Top Hat     
+It is the difference between input image and Opening of the image. Below example is done for a 9x9 kernel. 
+
+    kernel = np.ones((9, 9), np.uint8)
+    tophat = cv.morphologyEx(img, cv.MORPH_TOPHAT, kernel)
+    cv.imshow('image', tophat)
+    cv.waitKey(0) & 0xFF
+
+![alt text](https://docs.opencv.org/trunk/tophat.png) 
+
+# Black Hat   
+It is the difference between the closing of the input image and input image.     
+
+![alt text](https://docs.opencv.org/trunk/blackhat.png) 
+
