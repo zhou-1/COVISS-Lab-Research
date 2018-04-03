@@ -26,3 +26,9 @@ Python: cv.ADAPTIVE_THRESH_GAUSSIAN_C
 the threshold value T(x,y) is a weighted sum (cross-correlation with a Gaussian window) of the 𝚋𝚕𝚘𝚌𝚔𝚂𝚒𝚣𝚎×𝚋𝚕𝚘𝚌𝚔𝚂𝚒𝚣𝚎 neighborhood of (x,y) minus C . The default sigma (standard deviation) is used for the specified blockSize .   
 
 
+# Otsu’s Binarization     
+otsu又叫最大类间方差。主要是找到一个阈值，使整个图像中前景与背景这两部分差别最大，（这方法主要用于分割其实）     
+In global thresholding, we used an arbitrary value for threshold value, right? So, how can we know a value we selected is good or not? Answer is, trial and error method. But consider a bimodal image (In simple words, bimodal image is an image whose histogram has two peaks). For that image, we can approximately take a value in the middle of those peaks as threshold value, right ? That is what Otsu binarization does. So in simple words, it automatically calculates a threshold value from image histogram for a bimodal image. (For images which are not bimodal, binarization won’t be accurate.)     
+For this, our cv.threshold() function is used, but pass an extra flag, cv.THRESH_OTSU. For threshold value, simply pass zero. Then the algorithm finds the optimal threshold value and returns you as the second output, retVal. If Otsu thresholding is not used, retVal is same as the threshold value you used.    
+
+
