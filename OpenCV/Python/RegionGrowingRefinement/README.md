@@ -39,11 +39,11 @@ https://stackoverflow.com/questions/22981845/3-dimensional-array-in-numpy
 >>> cv.getStructuringElement(cv.MORPH_RECT,(5,5))     
 
 
-array([[1, 1, 1, 1, 1],
-       [1, 1, 1, 1, 1],
-       [1, 1, 1, 1, 1],
-       [1, 1, 1, 1, 1],
-       [1, 1, 1, 1, 1]], dtype=uint8)
+        array([[1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1]], dtype=uint8)
 
 https://docs.opencv.org/trunk/d9/d61/tutorial_py_morphological_ops.html
  
