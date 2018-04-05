@@ -25,6 +25,7 @@ array([[[  1.,   4.,   7.,  10.],
 
 
 # Matlab convert into Python   
+matlab code to numpy    
 http://mathesaurus.sourceforge.net/matlab-numpy.html   
 
 # numpy zeros
@@ -32,3 +33,17 @@ https://docs.scipy.org/doc/numpy-1.10.4/reference/generated/numpy.zeros.html
 
 3-dimensional array in numpy    
 https://stackoverflow.com/questions/22981845/3-dimensional-array-in-numpy   
+
+# Structuring Element    
+# Rectangular Kernel
+>>> cv.getStructuringElement(cv.MORPH_RECT,(5,5))     
+
+
+array([[1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1]], dtype=uint8)
+
+https://docs.opencv.org/trunk/d9/d61/tutorial_py_morphological_ops.html
+ 
