@@ -33,8 +33,10 @@ https://docs.scipy.org/doc/numpy-1.10.4/reference/generated/numpy.zeros.html
 3-dimensional array in numpy    
 https://stackoverflow.com/questions/22981845/3-dimensional-array-in-numpy   
 
-# Structuring Element    
-# Rectangular Kernel
+# original CNN prediction    
+
+
+# Structuring Element - Rectangular Kernel        
 >>> cv.getStructuringElement(cv.MORPH_RECT,(5,5))     
 
         array([[1, 1, 1, 1, 1],
@@ -43,5 +45,21 @@ https://stackoverflow.com/questions/22981845/3-dimensional-array-in-numpy
                 [1, 1, 1, 1, 1],
                 [1, 1, 1, 1, 1]], dtype=uint8)
 
-https://docs.opencv.org/trunk/d9/d61/tutorial_py_morphological_ops.html
+https://docs.opencv.org/trunk/d9/d61/tutorial_py_morphological_ops.html    
+
+# count Number of nonzero matrix elements    
+nnz in matlab: n = nnz(X) returns the number of nonzero elements in matrix X.   
+cv.countNonZero in opencv in python   
+
+# bwmorph   
+Morphological operations on binary images   
+Matlab: BW2 = bwmorph(BW,operation) applies a specific morphological operation to the binary image BW.      
+
+# Display image as grayscale using matplotlib   
+https://stackoverflow.com/questions/3823752/display-image-as-grayscale-using-matplotlib   
+https://stackoverflow.com/questions/22777660/display-an-rgb-matrix-image-in-python/22778084#22778084   
+
+
+
+
  
