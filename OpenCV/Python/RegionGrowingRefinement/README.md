@@ -59,6 +59,28 @@ Matlab: BW2 = bwmorph(BW,operation) applies a specific morphological operation t
 https://stackoverflow.com/questions/3823752/display-image-as-grayscale-using-matplotlib   
 https://stackoverflow.com/questions/22777660/display-an-rgb-matrix-image-in-python/22778084#22778084   
 
+# Bitwise operations   
+bitxor in MatLab: bit-wise xor   
+cv.bitwise_xor in opencv python    
+https://docs.opencv.org/3.2.0/d0/d86/tutorial_py_image_arithmetics.html      
+
+# Skeletonization using OpenCV-Python    
+http://opencvpython.blogspot.com/2012/05/skeletonization-using-opencv-python.html   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
