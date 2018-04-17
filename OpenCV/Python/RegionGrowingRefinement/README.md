@@ -67,10 +67,17 @@ https://docs.opencv.org/3.2.0/d0/d86/tutorial_py_image_arithmetics.html
 # Skeletonization using OpenCV-Python    
 http://opencvpython.blogspot.com/2012/05/skeletonization-using-opencv-python.html   
 
+# Find indices of elements    
+find in matlab = np.where in python   
+https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.where.html   
 
+# Total number of elements     
+length(x) returns max(size(x)) and numel(x) returns the total number of elements of x    
+size(a) or a.size 	//get the number of elements of an array    
 
-
-
+# Round up
+ceil(a)	in matlab equals numpy.ceil(a) in python   
+http://mathesaurus.sourceforge.net/matlab-numpy.html   
 
 
 
