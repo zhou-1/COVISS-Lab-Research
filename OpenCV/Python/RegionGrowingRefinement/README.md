@@ -79,12 +79,13 @@ size(a) or a.size 	//get the number of elements of an array
 ceil(a)	in matlab equals numpy.ceil(a) in python   
 http://mathesaurus.sourceforge.net/matlab-numpy.html   
 
+# MATLAB Arrays as Python Variables   
+https://www.mathworks.com/help/compiler_sdk/python/matlab-arrays-as-python-variables.html   
 
+# not equal   
+a ~= b	a != b or not_equal(a,b)	Not Equal    
 
-
-
-
-
+# 
 
 
 
