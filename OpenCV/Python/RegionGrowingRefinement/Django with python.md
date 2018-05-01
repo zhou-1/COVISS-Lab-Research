@@ -27,3 +27,11 @@ The Django framework is a type of a Model-View-Template (MVT) framework, similar
 
 # Step 6: Run the Django test server   
 
+
+
+
+
+
+
+# Another demo   
+https://docs.djangoproject.com/en/2.0/intro/tutorial01/    
