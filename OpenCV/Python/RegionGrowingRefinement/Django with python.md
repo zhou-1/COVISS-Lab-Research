@@ -25,7 +25,9 @@ The Django framework is a type of a Model-View-Template (MVT) framework, similar
 
 # Step 5: Update the URLs to include an endpoint to our API   
 As of Django 1.10, the patterns module has been removed (it had been deprecated since 1.8).    
-app view, main view ???
+app view, main view ???   
+(url(r'^face_detection/detect/$', face_detector.views.detect),
+NameError: name 'face_detector' is not defined)
 
 # Step 6: Run the Django test server   
 When you install django using just pip install django, then you have to run python manage.py startapp else if you used pip3Click here to view terminal example install django, then you have to run python3 manage.py startapp      
