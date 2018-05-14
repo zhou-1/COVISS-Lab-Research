@@ -22,8 +22,10 @@ Now that our Django project is all setup, we can get to coding.
 The Django framework is a type of a Model-View-Template (MVT) framework, similar to a Model-View-Controller, where a “View” can be thought of as a type of web page.    
 
 # Step 4: Inserting the face detector into my template API   
+copy and paste the haarcascades package in data package of opencv in face_detector, rename cascades (will use haarcascade_frontalface_default.xml)   
 
 # Step 5: Update the URLs to include an endpoint to our API   
+change 1   
 As of Django 1.10, the patterns module has been removed (it had been deprecated since 1.8).    
 urls.py in cv_api of cv_api:   
 from django.urls import include,path   
@@ -38,7 +40,17 @@ urlpatterns = [
     #url(r'^admin/', admin.site.urls),
 ]     
 
+change 2   
+in face_detector of cv_api:
+add file called urls.py   
+from django.urls import path   
+from . import views   
+urlpatterns = [
+    path('', views.detect, name='detect'),
+]    
 
+
+Final files:    
 cv_api   
   -- cv_api   
     -- __pycache__   
