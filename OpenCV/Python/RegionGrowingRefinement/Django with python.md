@@ -46,7 +46,8 @@ add file called urls.py
 from django.urls import path   
 from . import views   
 urlpatterns = [
-    path('', views.detect, name='detect'),
+
+    path('', views.detect, name='detect'),  
 ]    
 
 
