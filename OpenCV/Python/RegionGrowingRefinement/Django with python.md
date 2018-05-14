@@ -25,6 +25,20 @@ The Django framework is a type of a Model-View-Template (MVT) framework, similar
 
 # Step 5: Update the URLs to include an endpoint to our API   
 As of Django 1.10, the patterns module has been removed (it had been deprecated since 1.8).    
+urls.py in cv_api of cv_api:   
+from django.urls import include,path   
+from django.contrib import admin   
+urlpatterns = [
+    # Examples:
+ 
+    path('face_detector/', include('face_detector.urls')),
+    path('admin/', admin.site.urls),
+
+    #url(r'^face_detection/detect/$', face_detector.views.detect),
+    #url(r'^admin/', admin.site.urls),
+]     
+
+
 cv_api   
   -- cv_api   
     -- __pycache__   
