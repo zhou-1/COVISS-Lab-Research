@@ -26,25 +26,25 @@ The Django framework is a type of a Model-View-Template (MVT) framework, similar
 # Step 5: Update the URLs to include an endpoint to our API   
 As of Django 1.10, the patterns module has been removed (it had been deprecated since 1.8).    
 cv_api   
-   cv_api   
-     __pycache__   
-     __init__.py   
-     settings.py   
-     urls.py   
-     wsgi.py   
-   face_detector  
-     cascades  
-     migrations  
-     __pycache__  
-     admin.py  
-     apps.py  
-     __init__.py   
-     models.py  
-     tests.py  
-     urls.py  
-     views.py  
-   manage.py  
-   db.sqlite3   
+  -- cv_api   
+    -- __pycache__   
+    -- __init__.py   
+    -- settings.py   
+    -- urls.py   
+    -- wsgi.py   
+  -- face_detector  
+    -- cascades  
+    -- migrations  
+    -- __pycache__  
+    -- admin.py  
+    -- apps.py  
+    -- __init__.py   
+    -- models.py  
+    -- tests.py  
+    -- urls.py  
+    -- views.py  
+ -- manage.py  
+ -- db.sqlite3   
 
 # Step 6: Run the Django test server   
 When you install django using just pip install django, then you have to run python manage.py startapp else if you used pip3Click here to view terminal example install django, then you have to run python3 manage.py startapp      
