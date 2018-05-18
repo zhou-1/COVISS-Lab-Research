@@ -99,6 +99,15 @@ let’s write some actual Python code that can upload and interact with images s
 
 
 
+question 1: upload image from local environment
+
+
+question 2: run apps one by one
+save final image inside static/images folder   
+use image here to upload   
+tried to insert index.html in test.py then it can call the index to run.  
+
+
 
 # Another demo   
 https://docs.djangoproject.com/en/2.0/intro/tutorial01/    
