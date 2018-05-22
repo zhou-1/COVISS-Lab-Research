@@ -100,12 +100,19 @@ let’s write some actual Python code that can upload and interact with images s
 
 
 question 1: upload image from local environment
-
+change DEBUG to True in settings.file   
 
 question 2: run apps one by one
 save final image inside static/images folder   
 use image here to upload   
-tried to insert index.html in test.py then it can call the index to run.  
+tried to insert index.html in test.py then it can call the index to run. https://programminghistorian.org/en/lessons/creating-and-viewing-html-files-with-python      
+webbrowser.open_new_tab('http://localhost:8000/rango/')    
+tried to combine test_api contents into views in face_detector    
+
+# Next step   
+user iteraction  
+step a. clcik mouse, get the coordinate of image and show circle on the point   
+
 
 
 
