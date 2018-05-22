@@ -97,8 +97,6 @@ curl -X POST -F image=@bla.jpg 'http://localhost:8000/face_detector/' ; echo ""
 # Step 8: display   
 let’s write some actual Python code that can upload and interact with images sent to our API.    
 
-
-
 question 1: upload image from local environment
 change DEBUG to True in settings.file   
 
