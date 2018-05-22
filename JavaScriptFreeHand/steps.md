@@ -14,4 +14,5 @@ https://www.w3schools.com/tags/canvas_arc.asp
 free hand drawing   
 https://dev.opera.com/articles/html5-canvas-painting/   
 
-useful: https://stackoverflow.com/questions/2368784/draw-on-html5-canvas-using-a-mouse   
+resize image: https://askubuntu.com/questions/1164/how-to-easily-resize-images-via-command-line    
+useful: https://stackoverflow.com/questions/2368784/draw-on-html5-canvas-using-a-mouse     
