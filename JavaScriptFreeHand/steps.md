@@ -21,6 +21,9 @@ step c. Adding drawing tools
 rectangle and pencil(step b)   
 step d. Add Line   
 
+# step 5. uploading image inside the "working" box   
+
+
 
 resize image: https://askubuntu.com/questions/1164/how-to-easily-resize-images-via-command-line    
 useful: https://stackoverflow.com/questions/2368784/draw-on-html5-canvas-using-a-mouse     
