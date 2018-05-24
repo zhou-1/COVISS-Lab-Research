@@ -1,8 +1,8 @@
 # Models and Database    
 
 # step 1. create models    
-In rango/models.py, we will define two classes - both of which must inherit from django.db.models.Model. The two Python classes will be the definitions for models representing categories and pages. Define the Category and Page models     
-  
+In rango/models.py, we will define two classes - both of which must inherit from django.db.models.Model. The two Python classes will be the definitions for models representing categories and pages. Define the Category and Page models.
+For "Getting TypeError: __init__() missing 1 required positional argument: 'on_delete' when trying to add parent table after child table with entries" error:  
   
       category = models.ForeignKey(    
 	      'Category',    
