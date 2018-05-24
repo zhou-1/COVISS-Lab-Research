@@ -21,7 +21,10 @@ step c. Adding drawing tools
 rectangle and pencil(step b)   
 step d. Add Line   
 
-# step 5. uploading image inside the "working" box   
+# step 5. uploading image inside the "working" box    
+draw image in box first, then update draw functions on it, lastly, add coordinates detection function inside.
+
+# step 6. retrieve or download coordinates of x and y   
 
 
 
