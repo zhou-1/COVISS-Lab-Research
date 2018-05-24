@@ -25,6 +25,10 @@ step d. Add Line
 draw image in box first, then update draw functions on it, lastly, add coordinates detection function inside.
 
 # step 6. retrieve or download coordinates of x and y   
+only can download in download foleder, cnanot change to desired location: Whether the browser asks the user or not is down to the preferences in the browser. You can't bypass those preference, otherwise it would violate user's security. may be not a good way   
+
+Extract data from a HTML Input field in django:    
+
 
 
 
