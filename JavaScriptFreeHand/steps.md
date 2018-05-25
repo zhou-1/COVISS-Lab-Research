@@ -49,7 +49,7 @@ Next step: try to add variables inside the file instead of multiple files.
 
 # However    
 # step 7: get data from user side in server side     
-
+see data folder   
 
 
 
