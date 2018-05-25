@@ -15,5 +15,5 @@ HTML web storage (session storage object): https://www.w3schools.com/Html/html5_
 
 
 # step 2. collect all data user have dynamically     
-
+especially for pencil method
 
