@@ -4,7 +4,9 @@
 3. web storage/DOM storage, is not automatically transmitted to the server in every HTTP request, and a web server can't directly write to Web storage, pass    
 4. cookies. session cookies are enough to use. but hard to analysis and use. pass     
 5. send back variables in javaScript while updating values in HTML. did not find a way doing this, pass        
-6. collect all data together in user's web storage and then send back to server with click button  
+6. collect all data together in user's web storage and then send back to server with click button. local storage only read and that's not possible since sessionStorage lives on the client, server cannot retrieve data.    
+7. Pass Data To Our Template In Django   
+
 For rectangle: where click the mouse, where then release the mouse  
 For line: same to rectangle   
 For pencil: need almost every points (in a short time/period)      
