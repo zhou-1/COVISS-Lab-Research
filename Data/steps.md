@@ -9,11 +9,11 @@
 How to access data from the models within the views and how to present this data via the templates      
 http://www.tangowithdjango.com/book17/chapters/models_templates.html      
 Five main steps to create a data driven webpage in Django:    
-  1. import models wish to use in application's views.py file    
-  2. with the view you wish to use, query the model to get the data want to present    
-  3. pass the result form model into template's context    
-  4. setup template to present the data to the user in whatever way    
-  5. map a url to view    
+  *. import models wish to use in application's views.py file    
+  *. with the view you wish to use, query the model to get the data want to present    
+  *. pass the result form model into template's context    
+  *. setup template to present the data to the user in whatever way    
+  *. map a url to view    
 
 
 
