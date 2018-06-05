@@ -16,6 +16,9 @@ Five main steps to create a data driven webpage in Django:
   *. map a url to view    
 Field error Cannot resolve keyword 'likes' into field. Choices are: id, name, page   
 https://stackoverflow.com/questions/33449009/field-error-cannot-resolve-keyword-likes-into-field-choices-are-id-name-pa    
+main problem: OperationalError, no such column. Django    
+In current version,  normal syncdb is now a two step process, python manage.py makemigrations followed by python manage.py migrate.     
+https://stackoverflow.com/questions/26312219/operationalerror-no-such-column-django/27286896   
 
 
 
