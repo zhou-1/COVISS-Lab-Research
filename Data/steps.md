@@ -14,6 +14,8 @@ Five main steps to create a data driven webpage in Django:
   *. pass the result form model into template's context    
   *. setup template to present the data to the user in whatever way    
   *. map a url to view    
+Field error Cannot resolve keyword 'likes' into field. Choices are: id, name, page   
+https://stackoverflow.com/questions/33449009/field-error-cannot-resolve-keyword-likes-into-field-choices-are-id-name-pa    
 
 
 
