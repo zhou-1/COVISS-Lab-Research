@@ -20,6 +20,14 @@ main problem: OperationalError, no such column. Django
 In current version,  normal syncdb is now a two step process, python manage.py makemigrations followed by python manage.py migrate.     
 https://stackoverflow.com/questions/26312219/operationalerror-no-such-column-django/27286896   
 
+8. Handling ajax request in Django    
+client = Ajax = Django view   
+1. initialize Django project   
+2. create models   
+3. create views   
+4. create URLs   
+5. making templates and carrying out ajax request   
+6. register models to admin and add some posts   
 
 
 
