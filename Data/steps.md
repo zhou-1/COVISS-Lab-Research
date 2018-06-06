@@ -22,12 +22,13 @@ https://stackoverflow.com/questions/26312219/operationalerror-no-such-column-dja
 
 8. Handling ajax request in Django    
 client = Ajax = Django view   
-1. initialize Django project   
-2. create models   
-3. create views   
-4. create URLs   
-5. making templates and carrying out ajax request   
-6. register models to admin and add some posts   
+ . initialize Django project   
+ . create models   
+ . create views   
+ . create URLs   
+ . making templates and carrying out ajax request   
+ . register models to admin and add some posts   
+
 
 
 
