@@ -68,7 +68,12 @@ In urls.py
         #path('', views._grab_image, name='grabImage'),
     ]
 
-I
+Result demo:   
+        
+        <class 'list'>
+        ['1', '2', '3', '4', '5', '6']
+
+aa
 
 
 
