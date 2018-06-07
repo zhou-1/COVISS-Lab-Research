@@ -38,6 +38,13 @@ HTML web storage (session storage object): https://www.w3schools.com/Html/html5_
 # step 2. collect all data user have dynamically     
 For rectangle: where click the mouse, where then release the mouse  
 For line: same to rectangle   
+needs two coordinates: click and release   
+
+
 For pencil: need almost every points (in a short time/period)      
-especially for pencil method
+needs danamic coordinates   
+
+
+<b> specially for pencil method </b>    
+
 
