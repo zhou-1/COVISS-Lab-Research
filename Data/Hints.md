@@ -57,9 +57,18 @@ In JS
     });
     </script>
 
+In urls.py   
+
+    urlpatterns = [
+        #path('', views.index, name='index'),
+
+
+        path('', views.main, name='results'),
+        path('test/', views.main, name='test'),
+        #path('', views._grab_image, name='grabImage'),
+    ]
+
 I
-
-
 
 
 
