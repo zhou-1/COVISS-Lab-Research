@@ -43,8 +43,9 @@ needs two coordinates: click and release
 
 For pencil: need almost every points (in a short time/period)      
 needs danamic coordinates   
+<b> especially for pencil method </b>    
+get mouse position: https://stackoverflow.com/questions/1439022/get-mouse-position   
+track mouse position: https://stackoverflow.com/questions/7790725/javascript-track-mouse-position    
 
-
-<b> specially for pencil method </b>    
 
 
