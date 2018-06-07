@@ -48,7 +48,23 @@ get mouse position: https://stackoverflow.com/questions/1439022/get-mouse-positi
 track mouse position: https://stackoverflow.com/questions/7790725/javascript-track-mouse-position    
 More: https://www.w3schools.com/jsref/event_clientx.asp    
 
-Therefore, only remaining solution is getting the current mouse while moving.    
+Therefore, only remaining solution is getting the current mouse position while moving.     
+what we also need to care for: after click mose, moving the mouse is valid; otherwise, invalid.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
