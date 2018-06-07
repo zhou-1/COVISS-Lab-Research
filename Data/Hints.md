@@ -26,4 +26,49 @@ no need to refresh page to get update. Instead of reloading the full page, only 
 Create a view that checks the data, return a response as JSON.   
 
 # Ajax in Django with JQuery   
+http://www.tangowithdjango.com/book17/chapters/ajax.html    
+
+# Send an array to Django via ajax   
+https://stackoverflow.com/questions/40977166/sending-an-array-to-django-via-ajax   
+In views.py   
+
+    def main(request):
+        arr = request.POST.getlist('arr[]')
+        print(type(arr))
+        print(arr)
+        return render(request, 'rango/index.html')
+
+In JS   
+
+    <a href=#>Click</a>
+
+    <script>
+    $(document).on('click', 'a', function() {
+
+     var arr = [1, 2, 3, 4, 5, 6];
+  
+     $.ajax({
+      url: 'test/',
+      type: 'POST',
+      data: {'arr': arr},
+
+      });
+
+    });
+    </script>
+
+I
+
+
+
+
+
+
+
+
+
+
+
+
+
 
