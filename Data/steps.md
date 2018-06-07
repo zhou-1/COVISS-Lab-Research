@@ -28,7 +28,7 @@ client = Ajax = Django view
  . create URLs   
  . making templates and carrying out ajax request   
  . register models to admin and add some posts   
-see hints.md  <b/>     
+<b> see hints.md  </b>     
 
 send form data: https://www.w3schools.com/jsref/met_form_submit.asp      
 HTML web storage (session storage object): https://www.w3schools.com/Html/html5_webstorage.asp    
