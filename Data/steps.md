@@ -28,13 +28,7 @@ client = Ajax = Django view
  . create URLs   
  . making templates and carrying out ajax request   
  . register models to admin and add some posts   
-
-
-
-
-For rectangle: where click the mouse, where then release the mouse  
-For line: same to rectangle   
-For pencil: need almost every points (in a short time/period)      
+see hints.md  </b>     
 
 send form data: https://www.w3schools.com/jsref/met_form_submit.asp      
 HTML web storage (session storage object): https://www.w3schools.com/Html/html5_webstorage.asp    
@@ -42,5 +36,8 @@ HTML web storage (session storage object): https://www.w3schools.com/Html/html5_
 
 
 # step 2. collect all data user have dynamically     
+For rectangle: where click the mouse, where then release the mouse  
+For line: same to rectangle   
+For pencil: need almost every points (in a short time/period)      
 especially for pencil method
 
