@@ -54,8 +54,8 @@ what we also need to care for: after click mose, moving the mouse is valid; othe
 modifying in the pencil tool makes whole things much easier.    
 example useful fo rmoving mouse: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_mouse_clientxy2       
   
-# Step 3. 
-
+# Step 3. store post data in server as a file, then our python app can use it    
+After user finish all drawing, click submit button to submit all data to server. All data should be used together.    
 
 
 
