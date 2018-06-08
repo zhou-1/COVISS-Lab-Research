@@ -47,13 +47,14 @@ needs danamic coordinates
 get mouse position: https://stackoverflow.com/questions/1439022/get-mouse-position   
 track mouse position: https://stackoverflow.com/questions/7790725/javascript-track-mouse-position    
 More: https://www.w3schools.com/jsref/event_clientx.asp    
+https://www.w3schools.com/js/js_events_examples.asp       
 
 Therefore, only remaining solution is getting the current mouse position while moving.     
 what we also need to care for: after click mose, moving the mouse is valid; otherwise, invalid.   
-
-
-
-
+modifying in the pencil tool makes whole things much easier.    
+example useful fo rmoving mouse: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_mouse_clientxy2       
+  
+# Step 3. 
 
 
 
