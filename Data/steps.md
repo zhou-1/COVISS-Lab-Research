@@ -39,7 +39,7 @@ HTML web storage (session storage object): https://www.w3schools.com/Html/html5_
 For rectangle: where click the mouse, where then release the mouse  
 For line: same to rectangle   
 needs two coordinates: click and release   
-seems impossible.   
+when mouse down which means click the mouse, get coordinates once; when up, get click coordinates again.      
 
 For pencil: need almost every points (in a short time/period)      
 needs danamic coordinates   
