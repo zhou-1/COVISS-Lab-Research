@@ -6,6 +6,15 @@ use url image in the future
 There are 20 objects    
 
 # Each object corresponds to different color   
+context.strokeStyle = 'red'; for color change in drawing tool.  
+https://stackoverflow.com/questions/18093912/html-javascript-canvas-color-changing   
 
+# show (x,y,id of object in final value)    
+add var z after x and y    
+
+     if(color_select == 'aero')
+            var z = 1;
+     else if(color_select == 'back')
+            var z = 2;
 
 # Use database in google drive to add URL to upload image  
