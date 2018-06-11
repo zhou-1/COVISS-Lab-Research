@@ -18,3 +18,13 @@ add var z after x and y
             var z = 2;
 
 # Use database in google drive to add URL to upload image  
+step 1. upload 1 image via url   
+https://www.w3schools.com/html/html_filepaths.asp    
+
+step 2. from google drive  
+Provided that you put your files in a public folder, you can get any file in a folder by this URL:    
+https://googledrive.com/host/<folderID>/<filename>     
+
+https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website      
+
+
