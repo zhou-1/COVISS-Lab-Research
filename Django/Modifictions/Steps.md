@@ -3,7 +3,7 @@ change the photo in static/images folder
 use url image in the future   
 
 # add option list for all diferent objects   
-There are 20 objects    
+There are 21 objects    
 
 # Each object corresponds to different color   
 context.strokeStyle = 'red'; for color change in drawing tool.  
