@@ -23,8 +23,15 @@ https://www.w3schools.com/html/html_filepaths.asp
 
 step 2. from google drive  
 Provided that you put your files in a public folder, you can get any file in a folder by this URL:    
-https://googledrive.com/host/<folderID>/<filename>     
-
+https://googledrive.com/host/<folderID>/<filename>       
+1- upload ur image    
+2- right click and chose "get sharable link"   
+3- copy the link which should look like    
+https://drive.google.com/open?id=xxxxxxx    
+4-change the open? to uc? and use it like     
+<img src="https://drive.google.com/uc?id=xxxxx">     
 https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website      
+     
+step 3. show all images one by one    
 
 
