@@ -29,7 +29,7 @@ https://googledrive.com/host/<folderID>/<filename>
 3- copy the link which should look like    
 https://drive.google.com/open?id=xxxxxxx    
 4-change the open? to uc? and use it like     
-<img src="https://drive.google.com/uc?id=xxxxx">     
+<!--<img src="https://drive.google.com/uc?id=xxxxx">   --> 
 https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website      
      
 step 3. show all images one by one    
