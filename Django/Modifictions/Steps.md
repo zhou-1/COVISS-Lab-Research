@@ -33,5 +33,26 @@ https://drive.google.com/open?id=xxxxxxx
 https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website      
      
 step 3. show all images one by one    
+a. one button for user click to show next image   
+https://www.w3schools.com/tags/tag_button.asp    
+b. slide show for multiple images   
+https://www.w3schools.com/w3css/w3css_slideshow.asp    
+c. download listfiles.txt for name and urls   
+d. load data from local text file in javascript   
+https://www.w3schools.com/jquery/jquery_ajax_load.asp    
+e. get the first row of data form file then after click button, get the second row    
+f. replace one image with another within one mouse click  
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb   
+g. more    
+https://stackoverflow.com/questions/6535882/retrieve-text-file-line-by-line-using-jquery-get   
+
+
+
+
+
+
+
+
+
 
 
