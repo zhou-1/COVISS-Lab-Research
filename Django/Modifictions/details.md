@@ -10,4 +10,4 @@ Also color_select can equal to integer directly.
 # Change the color when you choose empty option, after clicking mouse, change color back to black    
 
 # Problem: ValueError: putmask: mask and data must be the same size    
-???
+
