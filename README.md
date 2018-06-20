@@ -8,7 +8,7 @@ Part II. Django to let user draw the outline of image, after our image processin
 
 # Main Theories   
 Part I.   
-1. Thresholding the image into confidence foreground and background, uncertainty region; 2. Monte Carlo sampling of initial seeds; 3. Region Growing; 4. Majority voting and final classification   
+1.Thresholding the image into confidence foreground and background, uncertainty region; 2.Monte Carlo sampling of initial seeds; 3.Region Growing; 4.Majority voting and final classification   
 
 Part II.  
 Django as model-view-template architectural pattern, use python, HTML, CSS, JavaScript to get web interface working with public.    
