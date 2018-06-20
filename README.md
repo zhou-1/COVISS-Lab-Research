@@ -25,4 +25,4 @@ Basic steps for what we did for image process
 - Get back from the server a processed image.  
 - Also get back the confidence of our result.   
 
-![Demo Image1](images/3.jpg )
+![Demo Image1](images/3.png )
