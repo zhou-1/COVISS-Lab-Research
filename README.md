@@ -24,3 +24,5 @@ Basic steps for what we did for image process
 - Send the freehand traces to a server running the image processing algorithm (OpenCV or MATLAB)  
 - Get back from the server a processed image.  
 - Also get back the confidence of our result.   
+
+![Demo Image1](images/3.jpg )
