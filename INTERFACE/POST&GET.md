@@ -1,6 +1,6 @@
 HTTP POST requests supply additional data from the client (browser) to the server in the message body.        
 
-In contrast, GET requests include all required data in the URL. Forms in HTML can use either method by specifying method="POST" or method="GET" (default) in the <form> element.       
+In contrast, GET requests include all required data in the URL. Forms in HTML can use either method by specifying method="POST" or method="GET" (default) in the form element.       
 
 
 The method specified determines how form data is submitted to the server.     
