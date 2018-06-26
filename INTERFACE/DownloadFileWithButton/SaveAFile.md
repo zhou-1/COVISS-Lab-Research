@@ -2,12 +2,16 @@
 
 When you click "Next image", automatically save a file (.txt, .xls or whatever you prefer) with:    
 
-- image id (that "i" variable in the HTML code);    
-- time spend on the image;   
-- number of traces;    
+- image id (that "i" variable in the HTML code); solved   
+- time spend on the image; solved     
+- number of traces; solved    
+
+
 - number of pixels traced (accumulate the length of all traces)    
-- number of clicks on "Refine"   
-- the average accuracy obtained    
+
+
+- number of clicks on "Refine"   solved    
+- the average accuracy obtained    solved    
 
 # Use POST to get the needed data    
 create file and append data inside    
@@ -39,8 +43,13 @@ actually any programming language can use this way
 
     #code to send email
     
-    
+   
+   
+# Elements   
+id: nextImage(element), i, not solved    
+time: seconds, end()    
 
+number of click refine: refine_number, calculate()   
 
 
 
