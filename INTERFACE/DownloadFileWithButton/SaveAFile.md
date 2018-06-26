@@ -21,6 +21,10 @@ https://www.guru99.com/reading-and-writing-files-in-python.html
 a.write(str(num))     
 https://stackoverflow.com/questions/11160939/writing-integer-values-to-a-file-using-out-write     
 
+# Writing to a new file if it doesn't exist, and appending to a file if it does   
+https://stackoverflow.com/questions/20432912/writing-to-a-new-file-if-it-doesnt-exist-and-appending-to-a-file-if-it-does      
+
+
 # Calling a variable from one function to another function in Python    
 actually any programming language can use this way   
 
