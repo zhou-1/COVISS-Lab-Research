@@ -50,10 +50,13 @@ actually any programming language can use this way
    
    
 # Elements   
-id: nextImage(element), i, not solved    
-time: seconds, end()    
-
-number of click refine: refine_number, calculate()   
+writeFile()    
+id: id_image, i     
+time: final_seconds, seconds      
+trace number: trace_number, trace_number     
+length of trace；   
+number of click refine: refine_number, callCnt2     
+accuracy of average results: avg_accuracy, strAvg    
 
 
 
