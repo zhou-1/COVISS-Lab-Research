@@ -36,4 +36,4 @@ result image
 
 # Draft Result 2   
 Tools and result   
-![Demo Image2](images/result_train.png )   
+![Demo Image2](images/train_result.png )   
