@@ -52,3 +52,8 @@ https://stackoverflow.com/questions/26902084/html5-canvas-how-to-draw-rectangle-
 
         }
       }); 
+      
+      
+      
+# APPLY ON BELOW FUNCTIONS
+callRefine(), img_update(), on load image.      
