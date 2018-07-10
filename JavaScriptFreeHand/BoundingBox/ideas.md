@@ -23,3 +23,32 @@ canvas rect() Method
 
 Referred from: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_canvas_rect2    
 https://stackoverflow.com/questions/26902084/html5-canvas-how-to-draw-rectangle-over-image-in-canvas    
+
+
+    // load bounding box list
+    var bound = bbArray[listIDs[i]];
+
+    // code here to use the dimensions
+    var img_size = [img.naturalHeight, img.naturalWidth];
+        
+    $.ajax({
+      url: 'initanns/',
+      type: 'POST',
+      data: {"img_size": img_size},
+      // dataType: "json",
+      success: function(resp){
+        //img.onload = function(){}
+
+        $.ajax({
+          url: 'urlSend/',
+          type: 'POST',
+          data: {"BB": bound},
+          success: function(data) {
+           //do sth here
+                    
+                }
+              }
+            });  
+
+        }
+      }); 
