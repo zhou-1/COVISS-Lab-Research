@@ -12,5 +12,5 @@
 
         contexto.beginPath();
         contexto.rect(intbounding[0], intbounding[1], intbounding[2], intbounding[3]);
-        //contexto.fillStyle = 'yellow';
-
+        
+Reference from: https://stackoverflow.com/questions/13272406/convert-string-with-commas-to-array/32657055     
