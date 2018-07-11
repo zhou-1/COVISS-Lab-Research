@@ -33,3 +33,22 @@ For load image/new image:
                   }
                 }
               });  
+
+
+For other, in order to use in convenience:    
+
+    function drawBoundingBox(){
+          for (var j = 0; j < bb.length; j++) {
+
+          // alert( bb[j][0])
+          // alert(typeof bb[j][0])// number
+        
+          contexto.beginPath();
+          contexto.rect(bb[j][0], bb[j][1], bb[j][2], bb[j][3]);
+
+          contexto.lineWidth = 2;
+          contexto.strokeStyle = colorArray[j];
+          contexto.stroke();        
+        
+          }
+     }
