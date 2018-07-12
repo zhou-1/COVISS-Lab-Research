@@ -39,10 +39,10 @@ Tools and result
 ![Demo Image3](images/train_result.png )   
 
 # Draft Result 3   
-Tools and abstract  
+Tools and abstract     
 ![Demo Image4](images/dogcat.png )   
 
-result image
+result image      
 ![Demo Image5](images/dogcat2.png )  
 
 
