@@ -36,4 +36,13 @@ result image
 
 # Draft Result 2   
 Tools and result   
-![Demo Image2](images/train_result.png )   
+![Demo Image3](images/train_result.png )   
+
+# Draft Result 3   
+Tools and abstract  
+![Demo Image4](images/dogcat.png )   
+
+result image
+![Demo Image5](images/dogcat2.png )  
+
+
