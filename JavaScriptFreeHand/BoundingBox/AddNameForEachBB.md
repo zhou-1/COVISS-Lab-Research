@@ -16,3 +16,7 @@ Add fillText() in drawBoundingBox() and img load.
 # Step 4  
 Change the color of text    
 context.fillStyle = 'blue';   
+
+# Step 5    
+Change the size of text dynamically    
+proportionally to size of bounding box.      
