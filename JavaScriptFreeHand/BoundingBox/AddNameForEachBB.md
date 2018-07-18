@@ -1,2 +1,18 @@
 # Name
-Add name for each bounding box.   
+Add name for each bounding box. 
+
+# Step 1   
+Add text in canvas javascript      
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_canvas_filltext    
+
+# Step 2    
+Make variable in refine() global, so we can use them in drawBoundingBox()      
+create array cat for storing catArray[ids[i]], each obect
+
+# Step 3    
+Add fillText() in drawBoundingBox() and img load.   
+
+
+# Step 4  
+Change the color of text    
+context.fillStyle = 'blue';   
