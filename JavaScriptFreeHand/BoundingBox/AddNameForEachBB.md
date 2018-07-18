@@ -20,3 +20,6 @@ context.fillStyle = 'blue';
 # Step 5    
 Change the size of text dynamically    
 proportionally to size of bounding box.      
+
+# Step 6   
+put global onject name inside boundingbox instead of current "test"    
