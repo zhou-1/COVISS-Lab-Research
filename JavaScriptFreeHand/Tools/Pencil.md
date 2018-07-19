@@ -1,7 +1,7 @@
 # Pencil drawing tool    
 
       // The drawing pencil.
-  tools.pencil = function () {
+      tools.pencil = function () {
     var tool = this;
     this.started = false;
 
