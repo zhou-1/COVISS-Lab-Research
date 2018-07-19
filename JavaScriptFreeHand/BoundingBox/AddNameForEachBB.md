@@ -26,3 +26,6 @@ put global onject name inside boundingbox instead of current "test"
 
 # Step 7 
 Change ajax to global value - step 2   
+
+# Current compromise   
+List names of objects beside the image.   
