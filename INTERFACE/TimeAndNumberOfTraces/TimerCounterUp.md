@@ -22,4 +22,27 @@ Refer from: https://www.w3schools.com/jsref/met_win_setinterval.asp
     });
 
 # Progress Bar for counting down    
+https://www.w3schools.com/howto/howto_js_progressbar.asp    
+
+    function move() {
+    var elem = document.getElementById("myBar");
+    var width = 10;
+    var id = setInterval(frame, 10);
+    function frame() {
+        if (width >= 100) {
+            clearInterval(id);
+        } else {
+            width++;
+            elem.style.width = width + '%';
+            elem.innerHTML = width * 1 + '%';
+        }
+    }
+    } 
+
+# Style width Property     
+https://www.w3schools.com/jsref/prop_style_width.asp    
+
+    object.style.width = "auto|length|%|initial|inherit" 
+
+
 
