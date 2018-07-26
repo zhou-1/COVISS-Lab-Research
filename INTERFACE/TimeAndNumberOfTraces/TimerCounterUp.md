@@ -29,9 +29,9 @@ https://www.w3schools.com/howto/howto_js_progressbar.asp
     var width = 10;
     var id = setInterval(frame, 10);
     function frame() {
-        if (width >= 100) {
+        if (width >= 100) {  //if it is bigger than 100, clear
             clearInterval(id);
-        } else {
+        } else {    //otherwise, keep adding 1
             width++;
             elem.style.width = width + '%';
             elem.innerHTML = width * 1 + '%';
