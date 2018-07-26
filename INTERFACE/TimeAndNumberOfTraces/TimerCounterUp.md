@@ -44,5 +44,17 @@ https://www.w3schools.com/jsref/prop_style_width.asp
 
     object.style.width = "auto|length|%|initial|inherit" 
 
+# Different style for bar   
+https://loading.io/progress/     
+At top:
 
+    <link rel="stylesheet" type="text/css" href="/static/loading-bar.css" />
+    <script type="text/javascript" src="/static/loading-bar.js"></script> 
+Example:
+  
+    <div id="scoreBar" class="ldBar" data-value="50" data-preset="rainbow"></div>
 
+In code:
+
+        var bar = document.getElementById('scoreBar').ldBar;
+        bar.set(avg_acc); 
