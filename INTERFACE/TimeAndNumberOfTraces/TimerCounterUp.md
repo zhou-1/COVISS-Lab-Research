@@ -8,3 +8,18 @@ The setInterval() method will continue calling the function until clearInterval(
 The ID value returned by setInterval() is used as the parameter for the clearInterval() method.       
 Refer from: https://www.w3schools.com/jsref/met_win_setinterval.asp     
 
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    // Get todays date and time
+    var now = new Date().getTime();
+
+    var distance = now - startTime - pauseInterval;
+
+    var seconds = Math.floor(distance / 1000);
+
+    // Output the result in an element with id
+    document.getElementById("clockId").innerHTML =  seconds + "s ";
+    });
+
+Progress Bar for counting down    
+
