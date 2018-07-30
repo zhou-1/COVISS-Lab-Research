@@ -1,10 +1,10 @@
 # Different button on keyboard controls one on/off button  
 
 # M for mask
-
+M is 77 in ASCII values.      
 
 # B for bounding box   
-
+B is 66 in ASCII values.     
 
 # T for trace    
-
+T is 84 in ADCII values.     
