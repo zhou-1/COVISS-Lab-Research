@@ -5,3 +5,4 @@ if you set display:none, it hides the entire element, while visibility:hidden me
 flag traceOn    
 a function for changing status of temp_canvas     
 
+
