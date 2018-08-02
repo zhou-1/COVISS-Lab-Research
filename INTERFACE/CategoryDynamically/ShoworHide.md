@@ -6,4 +6,6 @@
 
 3. Get rid of related elements in current image with first for loop   
 
+4. Get rid of background solo   
 
+5. We have array with unrelated elements now. Get rid of them.  
