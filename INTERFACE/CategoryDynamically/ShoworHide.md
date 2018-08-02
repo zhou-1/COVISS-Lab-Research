@@ -1,5 +1,6 @@
 # Show item in category dynamically according to list of objects in current image    
 
+# Show items in first page   
 1. Give ID for all items in category   
 
 2. Create an array to store all option IDs     
@@ -9,3 +10,7 @@
 4. Get rid of background solo   
 
 5. We have array with unrelated elements now. Get rid of them.  
+
+Problem: We deleted the items, we need to recreate all of the items now.    
+
+# 
