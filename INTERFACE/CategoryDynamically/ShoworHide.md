@@ -17,4 +17,8 @@ Array length Property, https://www.w3schools.com/jsref/jsref_length_array.asp
 Problem: We deleted the items, we need to recreate all of the items now.    
 
 # Show items in next pages   
+1. In nextImage() function, delete all remaining elements in previous image    
 
+2. Create a new full list for category in javascript    
+
+3. 
