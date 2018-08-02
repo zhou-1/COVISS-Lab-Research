@@ -11,6 +11,9 @@
 
 5. We have array with unrelated elements now. Get rid of them.  
 
+Refer: Remove an element from an array, https://stackoverflow.com/questions/5767325/how-do-i-remove-a-particular-element-from-an-array-in-javascript    
+Array length Property, https://www.w3schools.com/jsref/jsref_length_array.asp   
+
 Problem: We deleted the items, we need to recreate all of the items now.    
 
 # Show items in next pages   
