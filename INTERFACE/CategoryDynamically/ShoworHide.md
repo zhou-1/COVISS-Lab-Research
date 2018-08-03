@@ -21,4 +21,7 @@ Problem: We deleted the items, we need to recreate all of the items now.
 
 2. Create a new full list for category in javascript including recover optionArray with 1 to 21       
 
-3. 
+3. give correct value to items in category list: Select a dropdown option by value   
+refer from: http://www.imranulhoque.com/javascript/javascript-beginners-select-a-dropdown-option-by-value/    
+
+4. 
