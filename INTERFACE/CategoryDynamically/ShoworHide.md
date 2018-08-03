@@ -25,3 +25,7 @@ Problem: We deleted the items, we need to recreate all of the items now.
 refer from: http://www.imranulhoque.com/javascript/javascript-beginners-select-a-dropdown-option-by-value/    
 
 4. delete unrelated elements   
+4.1 get number in optionArray     
+4.2 get string for dcolor id      
+4.3 get name in that id     
+4.4 get rid of from dcolor    
