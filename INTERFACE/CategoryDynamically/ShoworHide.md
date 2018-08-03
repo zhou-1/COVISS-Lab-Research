@@ -24,4 +24,4 @@ Problem: We deleted the items, we need to recreate all of the items now.
 3. give correct value to items in category list: Select a dropdown option by value   
 refer from: http://www.imranulhoque.com/javascript/javascript-beginners-select-a-dropdown-option-by-value/    
 
-4. 
+4. delete unrelated elements   
