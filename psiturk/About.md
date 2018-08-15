@@ -7,4 +7,4 @@ http://psiturk.org/quick_start/
 # About     
 share code, get data online, focus on research   
 
-
+But only works for python 2, so give up eventually. :( 
