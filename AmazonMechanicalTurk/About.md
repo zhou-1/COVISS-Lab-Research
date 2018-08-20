@@ -7,4 +7,19 @@ Requester process: https://medium.com/@mechanicalturk/getting-started-with-surve
 
 https://requestersandbox.mturk.com/getting_started    
 
+# Agenda    
+# anatomy of a good HIT   
+clear, simple questions; instructions       
+should never be difficult to "grade"    
 
+# Break a project into HITs   
+spam? policy? 
+
+# Qualify workers   
+which worker, approval rate, location    
+
+# Manage work accuracy   
+trusted, qualified workers, ask multiple workers the same question    
+
+# Manage workers
+approve, reject, bonus and block. Develop a good reputation as a requester. Communicate.    
