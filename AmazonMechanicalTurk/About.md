@@ -23,3 +23,5 @@ trusted, qualified workers, ask multiple workers the same question
 
 # Manage workers
 approve, reject, bonus and block. Develop a good reputation as a requester. Communicate.    
+
+https://docs.aws.amazon.com/AWSMechTurk/latest/RequesterUI/Welcome.html    
