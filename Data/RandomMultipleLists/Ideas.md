@@ -1,3 +1,7 @@
-# Here are 4 lists    
-Extract one element randomly from sequencial list, A,B,C,D   
-SO it will be A1,B4,C9,D2,A6,B1,C10,D21,A19......    
+# Here are 8 lists       
+listApA, listApB, listPeach, listPear and corresponding gt lists that contain ground truth.    
+
+Generate a single list that combines the other lists in required batches.   
+
+
+
