@@ -1,0 +1,11 @@
+we have a toggle that shows/hides traces. One user forgot he clicked it, tried to draw something and then didn't know why it was not working. My idea: whenever the user starts to draw something, we automatically reset this toggle to show the traces.       
+
+solution 1: set trace flag to true everytime we click next image. No need.   
+
+# Trace     
+Every time when you click finish, will hide trace in TraceOnTempCanvas function; then in nextImage function, when user click next image button,
+will use TraceOnTempCanvas function again and call back trace.   
+
+# Mask    
+
+
