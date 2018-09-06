@@ -6,6 +6,7 @@ solution 2: setting the corresponding flag to TRUE when tool.pencil, tool.eraser
 # Trace     
 Every time when you click finish, will hide trace in TraceOnTempCanvas function; then in nextImage function, when user click next image button,
 will use TraceOnTempCanvas function again and call back trace.   
+Problem, but what if user hides the traces before click finish, then after click next image, it still is false.???  
 
 # Mask    
 
