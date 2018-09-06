@@ -25,3 +25,18 @@ T is 84 in ADCII values.
       //alert("Ctrl + B shortcut combination was pressed");
       //} 
       };
+
+# TAB for toggle between flower and background in category list     
+ASCII value for tab is 9 (decimal or hex)    
+
+      else if (e.which == 9){//tab
+      e.preventDefault(); // Prevent the default action
+      var element = document.getElementById('dcolor');
+      if(element.value == 1)
+        element.value = 2;
+      else if(element.value == 2)
+        element.value = 1;
+      var event = new Event('change');
+      element.dispatchEvent(event);
+    }
+  };
