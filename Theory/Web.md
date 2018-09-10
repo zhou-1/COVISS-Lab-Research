@@ -21,7 +21,7 @@ window.onload to automatic run when window load.
 3.initialize mouse cursor as pencil by default, load imag into cursor   
 4.AJAX call to loadBatches() in views.py to get list of images and ids, call init() function, lookupInit() and loadImage();once error, try call ajax again and after retrylimit times, reload whole webpage.          
 In <b>loadBatches()</b> function, open and save four lists for ApA, ApB, Peach and Pear, another four lists for corresponding ground truth. get username information and create a file for corresponding user. Shuffle once for the 4 no-GT lists. combine required information in single file, append elements in required order. After the loop, save the wole elements in a text. Finally return combinList, username and nextId.            
-In init() function,  
+In <b>init()</b> function,  
 
 In lookupInit() function,    
 
