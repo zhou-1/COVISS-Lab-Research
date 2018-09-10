@@ -16,9 +16,9 @@ window.onload to automatic run when window load.
 
 
 <b> When you load the webpage at first time </b>   
-1. assign global variables pointing to the "definitive" (img) upper canvas    
-2. use current time to define the name of the results (log) file (for example Results_{ID}.txt)    
-3. initialize mouse cursor as pencil by default, load imag into cursor   
-4. AJAX call to loadBatches() in views.py to get list of images and ids     
+1.assign global variables pointing to the "definitive" (img) upper canvas    
+2.use current time to define the name of the results (log) file (for example Results_{ID}.txt)    
+3.initialize mouse cursor as pencil by default, load imag into cursor   
+4.AJAX call to loadBatches() in views.py to get list of images and ids     
 In loadBatches() function, 
 
