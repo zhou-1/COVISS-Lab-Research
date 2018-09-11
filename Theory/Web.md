@@ -39,7 +39,7 @@ set image URL to image element on bottom canvas; get selected transparency for i
 function lookupInit() //response to scores    
 function getScore(acc)      
 function getRandomColor()    
-
+function drawBoundingBox()    
 
 
 
