@@ -17,10 +17,10 @@ Refine button.
 
 
 <b> When you load the webpage at first time </b>   
-1.assign global variables pointing to the "definitive" (img) upper canvas    
-2.use current time to define the name of the results (log) file (for example Results_{ID}.txt)    
-3.initialize mouse cursor as pencil by default, load imag into cursor   
-4.AJAX call to loadBatches() in views.py to get list of images and ids, call init() function, lookupInit() and loadImage();once error, try call ajax again and after retrylimit times, reload whole webpage.          
+1. assign global variables pointing to the "definitive" (img) upper canvas    
+2. use current time to define the name of the results (log) file (for example Results_{ID}.txt)    
+3. initialize mouse cursor as pencil by default, load imag into cursor   
+4. AJAX call to loadBatches() in views.py to get list of images and ids, call init() function, lookupInit() and loadImage();once error, try call ajax again and after retrylimit times, reload whole webpage.          
 In <b>loadBatches()</b> function, open and save four lists for ApA, ApB, Peach and Pear, another four lists for corresponding ground truth. get username information and create a file for corresponding user. Shuffle once for the 4 no-GT lists. combine required information in single file, append elements in required order. After the loop, save the wole elements in a text. Finally return combinList, username and nextId.            
 In <b>init()</b> function, find the canvas elements, get the 2D canvas context; add the temporary canvas that will contain the traces above the image canvas (give this temporary canvas id, width and height); get the tool, color, size select input and add event listener to changes; activate the default tool, color, size; attach mouse events, touch events listerners.     
 In <b>lookupInit()</b> function, in previous version, we need it to calculate the score. No need for final version.           
