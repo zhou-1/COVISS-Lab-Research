@@ -34,7 +34,10 @@ set image URL to image element on bottom canvas; get selected transparency for i
 4. hide Undo button and reactivate it only if traces.length > 0     
 5. get pointer (like img, size of image) to image on bottom canvas     
 6. increament counter of number of refinements performed    
-7. 
+7. create random ID for the output mask file (from https://gist.github.com/gordonbrander/2230317)     
+8. weight of traces,????? which defines the spacing between samples in RGR    
+9. theta_m: regulates weight of color-similarity vs spatial-proximity ????       
+10. Ajax call to send all pending traes. In ajax call, we are using refine function in views.py   
 
 
 
