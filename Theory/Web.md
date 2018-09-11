@@ -28,7 +28,13 @@ In <b>loadImage()</b> function, save current cursor (pencil/line/erase) and then
 set image URL to image element on bottom canvas; get selected transparency for image; img.onload to load image: display image ID to user..... until an ajax call (initFlAnns) to get size of image and create array with users' annotations (0 for initial, 1 for background later, 2 for flower later), using sessions allow us to keep updating and accessing this same variable back and forth in the views.py. Otherwise, if error, reload whole window page.     
 
 <b> Refine button </b>    
-
+1. save current state of cursor (pencil or line or eraser)     
+2. switch mouse cursor to loading/wait symbol    
+3. display "Refining.." icon    
+4. hide Undo button and reactivate it only if traces.length > 0     
+5. get pointer (like img, size of image) to image on bottom canvas     
+6. increament counter of number of refinements performed    
+7. 
 
 
 
