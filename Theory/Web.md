@@ -25,7 +25,7 @@ In <b>loadBatches()</b> function, open and save four lists for ApA, ApB, Peach a
 In <b>init()</b> function, find the canvas elements, get the 2D canvas context; add the temporary canvas that will contain the traces above the image canvas (give this temporary canvas id, width and height); get the tool, color, size select input and add event listener to changes; activate the default tool, color, size; attach mouse events, touch events listerners.     
 In <b>lookupInit()</b> function, in previous version, we need it to calculate the score. No need for final version.           
 In <b>loadImage()</b> function, save current cursor (pencil/line/erase) and then update to loading symbol-'wait'; clear previous traces upper canvas; clear URL of mask image on bottom canvas; get image URL according to index i and the randomly permuted list; 
-set image URL to image element on bottom canvas; get selected transparency for image; img.onload to load image: display image ID to user..... until an ajax call (initFlAnns) to get size of image and create array with users' annotations (0 for initial, 1 for background later, 2 for flower later), using sessions allow us to keep updating and accessing this same variable back and forth in the views.py. Otherwise, if error, reload whole window page.     
+set image URL to image element on bottom canvas; get selected transparency for image; img.onload to load image: display image ID to user..... until an ajax call (initFlAnns) to get size of image and create array, userAnns, with users' annotations (0 for initial, 1 for background later, 2 for flower later), using sessions allow us to keep updating and accessing this same variable back and forth in the views.py. Otherwise, if error, reload whole window page.     
 
 <b> Refine button </b>    
 1. save current state of cursor (pencil or line or eraser)     
@@ -35,11 +35,9 @@ set image URL to image element on bottom canvas; get selected transparency for i
 5. get pointer (like img, size of image) to image on bottom canvas     
 6. increament counter of number of refinements performed    
 7. create random ID for the output mask file (from https://gist.github.com/gordonbrander/2230317)     
-8. weight of traces,????? which defines the spacing between samples in RGR    
-9. theta_m: regulates weight of color-similarity vs spatial-proximity ????       
-10. Ajax call to send all pending traes. In ajax call, we are using refine function in views.py   
-In refine function of views.py, 
-
+8. Ajax call to send all pending traes. In ajax call, we are using refine function in views.py   
+In refine function of views.py, get array of user traces from json (request.session['userAnns']), convert it to numpy array; get coordinates of trace to be drawn, use drawTrace function to draw  
+In drawTrace() function, write in lastTrace file, convert userAnns to unsigned integer, write shape anns inside the file, create a loop for collecting all traces   
 
 
 
