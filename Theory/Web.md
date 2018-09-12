@@ -38,7 +38,7 @@ set image URL to image element on bottom canvas; get selected transparency for i
 8. weight of traces,????? which defines the spacing between samples in RGR    
 9. theta_m: regulates weight of color-similarity vs spatial-proximity ????       
 10. Ajax call to send all pending traes. In ajax call, we are using refine function in views.py   
-
+In refine function of views.py, 
 
 
 
