@@ -12,7 +12,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_shake
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-    button:hover {
+    #click:hover {
       animation: shake 0.5s;
       animation-iteration-count: infinite;
     }
@@ -34,7 +34,8 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_shake
     </head>
     <body>
     <p>Hover over the button:</p>
-    <button type="button">Click Me!</button>
+    <button id = "click" type="button">Click Me!</button>
+    <button type="button">Click Me!!!!</button>
     </body>
     </html>
       
