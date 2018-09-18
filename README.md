@@ -6,6 +6,9 @@ http://coviss.org/
 Part I. Real-time Fruit Flower Detection using a Cloud-based Architecture    
 Part II. Django to let user draw the outline of image, after our image processing, show the objects and confidence    
 
+# Goals    
+No need for hand-writing labeling which is time-consumption and costs a lot. Within our project, we can label a lot of images with several traces.   
+
 # Main Theories   
 Part I.   
 1.Thresholding the image into confidence foreground and background, uncertainty region; 2.Monte Carlo sampling of initial seeds; 3.Region Growing; 4.Majority voting and final classification   
