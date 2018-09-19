@@ -3,8 +3,8 @@ Computer Vision and Sensing Systems Lab
 http://coviss.org/
 
 # Projects
-Part I. Real-time Fruit Flower Detection using a Cloud-based Architecture    
-Part II. Django to let user draw the outline of image, after our image processing, show the objects and confidence    
+Part I. Real-time Fruit Flower Detection using a Cloud-based Architecture (semi-supervised learning)      
+Part II. Django to let user draw the outline of image, after our image processing, show the objects and confidence  (annotation tools)      
 
 # Goals    
 No need for hand-writing labeling which is time-consumption and costs a lot. Within our project, we can label a lot of images with several traces.   
