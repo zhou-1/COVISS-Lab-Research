@@ -32,6 +32,10 @@ The CUDA Toolkit can be installed using either of two different installation mec
 
 6.Download the NVIDIA CUDA Toolkit    
 The NVIDIA CUDA Toolkit is available at http://developer.nvidia.com/cuda-downloads.    
+Installation Instructions:
+
+    Run `sudo sh cuda_10.0.130_410.48_linux.run`
+    Follow the command-line prompts
 
 
 
