@@ -38,6 +38,7 @@ Installation Instructions:
     Follow the command-line prompts
 
 
-
+# Add on   
+https://zhuanlan.zhihu.com/p/34587739   
 
 
