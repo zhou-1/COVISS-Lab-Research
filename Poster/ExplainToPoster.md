@@ -4,4 +4,10 @@ Goal: develop a web-based labeling interface that 1) easy to use; 2) allows user
 
 Free Label, an intuitive open-source web interface that allows users to obtain high-quality segmentation masks with just a few freehand scribbles, in a matter of seconds.     
 
+Django,    
+
+RGR,   
+
+Web interface,     
+
 
