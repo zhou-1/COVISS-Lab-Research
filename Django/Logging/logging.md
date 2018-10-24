@@ -30,4 +30,50 @@ import logging library, get an instance of a logger, using the logging framework
 
 # Naming loggers    
 
+    # Get an instance of a specific named logger
+    logger = logging.getLogger('project.interesting.stuff')
+The dotted paths of logger names define a hierarchy. The project.interesting logger is considered to be a parent of the project.interesting.stuff logger; the project logger is a parent of the project.interesting logger.    
+
+# Making logging calls    
+The logger instance contains an entry method for each of the default log levels:
+
+    logger.debug()
+    logger.info()
+    logger.warning()
+    logger.error()
+    logger.critical()
+    
+    logger.log(): Manually emits a logging message with a specific log level.
+    logger.exception(): Creates an ERROR level logging message wrapping the current exception stack frame.
+
+# Confirguring logging     
+Instead, you can set disable_existing_loggers to False and redefine some or all of the default loggers; or you can set LOGGING_CONFIG to None and handle logging config yourself.      
+
+First, here’s a simple configuration which writes all logging from the django logger to a local file.      
+
+Second, here’s an example of how to make the logging system print Django’s logging to the console. It may be useful during local development.     
+By default, this config only sends messages of level INFO or higher to the console. 
+With this config, however, you can also set the environment variable DJANGO_LOG_LEVEL=DEBUG to see all of Django’s debug logging which is very verbose as it includes all database queries.     
+
+# Custom logging configuration   
+If you don’t want to use Python’s dictConfig format to configure your logger, you can specify your own configuration scheme.     
+https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-LOGGING_CONFIG    
+https://docs.python.org/3/library/logging.config.html#logging.config.dictConfig     
+
+# Disabling logging configuration     
+If you don’t want to configure logging at all (or you want to manually configure logging using your own approach), you can set LOGGING_CONFIG to None.      
+
+    LOGGING_CONFIG = None
+
+    import logging.config
+    logging.config.dictConfig(...)
+
+
+
+
+
+
+
+
+
 
