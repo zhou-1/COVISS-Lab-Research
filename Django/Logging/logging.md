@@ -1,4 +1,6 @@
-# Python logging configuration    
+# Python logging configuration      
+https://docs.djangoproject.com/en/2.1/topics/logging/    
+
 loggers      
 A logger is the entry point into the logging system. Each logger is a named bucket to which messages can be written for processing.     
 
