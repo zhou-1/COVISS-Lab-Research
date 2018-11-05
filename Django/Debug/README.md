@@ -12,4 +12,5 @@ Show the debug toolbar
 
 
 # Back-end debug    
-
+https://docs.djangoproject.com/en/2.1/topics/logging/    
+https://docs.python.org/2/howto/logging.html     
