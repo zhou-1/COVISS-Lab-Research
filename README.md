@@ -2,12 +2,16 @@
 Computer Vision and Sensing Systems Lab
 http://coviss.org/
 
-# Projects
+# Project   
+FreeLabel: A Publicly Available Annotation Tool based on Freehand Traces   
 Part I. Real-time Fruit Flower Detection using a Cloud-based Architecture (semi-supervised learning)      
-Part II. Django to let user draw the outline of image, after our image processing, show the objects and confidence  (annotation tools)      
+Part II. Django to let user draw the outline of image, after our image processing, show the objects and confidence  (annotation tools)   
+Our FreeLabel tool for segmentation annotation relies on three main building blocks: a graphical user interface (GUI), the Django framework \cite{DjangoPython}, and the Region Growing Refinement (RGR) algorithm.      
+
 
 # Goals    
-No need for hand-writing labeling which is time-consumption and costs a lot. Within our project, we can label a lot of images with several traces.   
+No need for hand-writing labeling in huge dataset which is time-consumption and costs a lot. Within our project, we can label a lot of images with several traces.   
+The goal of our project is developing FreeLabel, an intuitive open-source web interface that allows users to obtain high-quality segmentation masks with just a few freehand scribbles, in a matter of seconds.    
 
 # Main Theories   
 Part I.   
