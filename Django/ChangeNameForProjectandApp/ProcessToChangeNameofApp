@@ -1,0 +1,51 @@
+Create a new app in terminal by using 
+python3 manage.py startapp Web
+
+
+Copy all useful python files from previous folder to new app folder
+
+
+Change the names in settings.py file in project 
+1. app's name in INSTALLED_APPS 
+2. DIRS in TEMPLATES 
+'DIRS': ['project's name/',
+
+		 TEMPLATE_PATH,	
+
+		 BASE_DIR + 'project's name/templates/Web',	
+
+		],
+3. urlpatterns in urls.py    
+urlpatterns = [
+
+    path('Web/',include('Web.urls')),
+
+]
+
+
+Change the names in new app folder
+admin.py 
+from Web.models import Category, Page   
+ 
+forms.py
+from Web.models import Page, Category
+
+urls.py
+from Web import views
+
+views.py
+sys.path.append(os.getcwd()+"/Web")
+from Web.models import Category, Page
+from Web.forms import UserForm
+# Take the user back to the homepage.
+return HttpResponseRedirect('/Web/register')      
+
+
+Recreate the new database, maybe no need?    
+$ python3 manage.py migrate
+
+
+Change the names of paths in .html files in templates folder. A lot...
+
+
+Good luck!
